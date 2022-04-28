@@ -3,6 +3,6 @@ resource "aws_vpc" "test" {
   instance_tenancy = var.instance_tenancy
 
   tags = {
-    Name = "test"
+    "Name" = format("%s-%s-%s", var.project, var.environment, "vpc")
   }
 }
