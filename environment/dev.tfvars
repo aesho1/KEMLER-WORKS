@@ -1,0 +1,5 @@
+vpc_cidr_block = "10.0.0.0/16"
+instance_tenancy = "default"
+project = "test"
+environment = "dev"
+aws_region = "eu-central-1"
